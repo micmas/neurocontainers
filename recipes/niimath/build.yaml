@@ -1,5 +1,5 @@
 name: niimath
-version: 1.0.20260703
+version: 1.0.20261016
 copyright:
   - license: BSD-2-Clause
     url: https://github.com/rordenlab/niimath/blob/master/LICENSE
@@ -18,7 +18,7 @@ build:
     - group:
         - variables:
             github_url: https://github.com/rordenlab/niimath.git
-            revision: 167031ef1d6f2e6c3beb164dbf8e2c23857947b2
+            revision: 5a5784b89b1e8e252184314e19fb535a9e27587f
         - run:
             - git clone {{ local.github_url }} /tmp/niimath
             - cd /tmp/niimath
